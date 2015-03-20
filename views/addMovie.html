@@ -1,0 +1,15 @@
+<!--   Add movie screen    -->
+<div class="container">
+	<div class="addMovieBox panel panel-primary">
+		<div class="panel-heading">
+			<h3 class="panel-title">New Movie</h3>
+		</div>
+		<div class="panel-body">
+			<form name="newMovieForm">
+				<input type="text" ng-required data-ng-model="newMovie.title" placeholder="Movie name" class="form-control title" /><br />
+				<input type="text" ng-required data-ng-model="newMovie.rating" placeholder="Rating" class="form-control rating" /><br />
+				<button type="button" ng-click="newMovieForm.$valid && addMovie()" ng-disabled="!(newMovie.title && newMovie.rating)" class="btn btn-sm btn-primary addMovie">Add movie</button>
+			</form>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="bigFlix">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pop Flix</title>
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="scripts/libs/bootstrap.min.css" />
+
+	<!--    App css -->
+	<link rel="stylesheet" type="text/css" href="scripts/css/bigFlix.css" />
+</head>
+<body ng-cloak>
+<!-- HEADER AND NAVBAR -->
+<app-header></app-header>
+
+<!--    Dynamic content comes here  -->
+<div ui-view=""></div>
+
+<!-- FOOTER -->
+<app-footer></app-footer>
+
+<!--    Library files            -->
+<script type="text/javascript" src="scripts/libs/angular.js"></script>
+<script type="text/javascript" src="scripts/libs/angular-ui-router.min.js"></script>
+<script type="text/javascript" src="scripts/libs/angular-animate.js"></script>
+<script type="text/javascript" src="scripts/libs/jquery-1.6.1.min.js"></script>
+
+<!-- Include all individual app script files as needed -->
+<script type="text/javascript" src="scripts/js/app.js"></script>
+<script type="text/javascript" src="scripts/js/common.js"></script>
+<script type="text/javascript" src="scripts/js/home.js"></script>
+<script type="text/javascript" src="scripts/js/movies.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+<!--    List movies screen    -->
+<div class="container">
+    <div class="welcomeBox">
+        <h2 class="title">Movies in store currently</h2>
+    </div>
+    <div class="moviesBox">
+        <ul class="list-group movies">
+            <a class="list-group-item" data-ng-repeat="movie in movies | filter: filter.movieName"
+                ui-sref="movieInfo({id:movie.id})">
+	            {{ movie.id }} : {{ movie.title }} - {{ movie.rating}}</a>
+        </ul>
+    </div>
+</div>

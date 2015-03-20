@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1,
+        "title": "Pacific Rim",
+        "year": 2013,
+        "genres": ["Action", "Adventure", "Sci-Fi"],
+        "inStock": true,
+        "parentalControl":true,
+        "price": 39.99,
+        "image": {
+	        "full": "pr_full.jpg",
+	        "thumb": "pr_thumb.jpg"
+        },
+        "plot": "When monstrous creatures, known as Kaiju, started rising from the sea, a war began that would take millions of lives and consume humanity's resources for years on end. To combat the giant Kaiju, a special type of weapon was devised: massive robots, called Jaegers, which are controlled simultaneously by two pilots whose minds are locked in a neural bridge. But even the Jaegers are proving nearly defenseless in the face of the relentless Kaiju. On the verge of defeat, the forces defending mankind have no choice but to turn to two unlikely heroes - a washed up former pilot (Charlie Hunnam) and an untested trainee (Rinko Kikuchi) - who are teamed to drive a legendary but seemingly obsolete Jaeger from the past. Together, they stand as mankind's last hope against the mounting apocalypse.",
+        "reviews": [
+            {
+	            "rating": 4,
+	            "comment": "Truly annoying movie to the core. Coudnt get worse.",
+	            "author": "Geronimo"
+            },
+		    {
+			    "rating": 3,
+			    "comment": "It sucks...",
+			    "author": "Allan Bets"
+		    }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Rio 2",
+        "year": 2014,
+        "genres": ["Animation", "Adventure", "Comedy", "Family"],
+        "inStock": false,
+        "parentalControl": false,
+        "price": 40.5,
+        "image": {
+	        "full": "rio2_full.jpg",
+	        "thumb": "rio2_thumb.jpg"
+        },
+        "plot": "It's a jungle out there for Blu, Jewel and their three kids after they're hurtled Rio de Janeiro to the wilds of the Amazon. As Blu tries to fit in, he goes beak-to-beak with the vengeful Nigel, and meets the most fearsome adversary of all: his father-in-law.",
+        "reviews": [
+	        {
+		        "rating": 8,
+		        "comment": "Amazing movie. Will go for it again",
+		        "author": "Betsy"
+	        },
+	        {
+		        "rating": 7,
+		        "comment": "I loved it!!",
+		        "author": "Gautam"
+	        },
+	        {
+		        "rating": 9,
+		        "comment": "Sweet...",
+		        "author": "Cynthia Mills"
+	        }
+        ]
+    }
+]
